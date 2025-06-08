@@ -16,7 +16,7 @@ export default function Home() {
         <small className=" text-center italic  ">
           {" "}
           Independent spanish videogame studio developing `Impawlse`, a kitten
-          game to relax andn enjoy by taking care for them, decorating their
+          game to relax and enjoy by taking care for them, decorating their
           space and playing minigames with them.
         </small>
         <Image
