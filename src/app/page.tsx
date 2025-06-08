@@ -5,7 +5,7 @@ import SocialBar from "./components/SocialBar";
 export default function Home() {
   return (
     <div className="w-full items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 ">
-      <main className="flex flex-col gap-[32px] items-center w-full  max-w-xl justify-center atkinson-hyperlegible-regular">
+      <main className="flex flex-col gap-[32px] items-center w-full  max-w-xl justify-center atkinson-hyperlegible-regular pb-20">
         <Image
           src="/peritalogo.png"
           alt="Next.js logo"
