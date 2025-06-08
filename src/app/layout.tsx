@@ -36,7 +36,7 @@ export const metadata = {
     { name: "antoniomagic" },
     { name: "PinkDandy" },
     { name: "ElMetas" },
-    { name: "Rappoporras" },
+    { name: "Rapoporras" },
   ],
   openGraph: {
     title: "Impawlse – Perita Game Dev",
