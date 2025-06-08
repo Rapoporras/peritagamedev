@@ -49,7 +49,10 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col  gap-4 items-start justify-center w-full">
-            <div className="darumadrop-one-regular text-xl uppercase "> State:</div>
+            <div className="darumadrop-one-regular text-xl uppercase ">
+              {" "}
+              State:
+            </div>
             <div className="flex flex-col sm:flex-row gap-2 items-center justify-center">
               <span className="py-1 px-2 bg-[#e5a074] text-white rounded-full border-2 border-[#2a3233]">
                 In development
@@ -58,6 +61,18 @@ export default function Home() {
                 Only compatible with Windows at the moment!
               </small>
             </div>
+          </div>
+
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Hmm_LbDDQqA?si=oPQDVO1fM1nHYO11"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
         <div className="w-full">
@@ -72,6 +87,7 @@ export default function Home() {
               height={400}
               className="w-full h-auto rounded-lg shadow-lg"
             />
+
             <div className="flex flex-col  gap-4 items-start justify-center w-full">
               <div className="darumadrop-one-regular text-xl uppercase">
                 Cats have necesities:
@@ -84,7 +100,9 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-4 flex flex-col  gap-4 items-start justify-center w-full">
-              <div className="darumadrop-one-regular text-xl uppercase">You can:</div>
+              <div className="darumadrop-one-regular text-xl uppercase">
+                You can:
+              </div>
               <div className="flex flex-col sm:flex-row gap-2 items-start justify-center">
                 <span>Pet to increase fun</span>
                 <span>Brush to clean</span>
@@ -250,7 +268,9 @@ export default function Home() {
           </div>
           <div className="mt-4 flex flex-col gap-4">
             <div className="flex flex-col  gap-4 items-start justify-center w-full">
-              <div className="darumadrop-one-regular text-xl uppercase">Limited content:</div>
+              <div className="darumadrop-one-regular text-xl uppercase">
+                Limited content:
+              </div>
               <div className="flex flex-col  gap-2 items-start justify-center">
                 <span>try the maze mini-game</span>
                 <span>meet the first three kittens</span>
