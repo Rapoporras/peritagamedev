@@ -4,8 +4,8 @@ import SocialBar from "./components/SocialBar";
 
 export default function Home() {
   return (
-    <div className=" items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 ">
-      <main className="flex flex-col gap-[32px] items-center  max-w-xl justify-center atkinson-hyperlegible-regular">
+    <div className="w-full items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 ">
+      <main className="flex flex-col gap-[32px] items-center w-full  max-w-xl justify-center atkinson-hyperlegible-regular">
         <Image
           src="/peritalogo.png"
           alt="Next.js logo"
@@ -27,7 +27,7 @@ export default function Home() {
           className="w-[350px] sm:w-[600px] h-auto"
         />
 
-        <div className="flex flex-col  gap-4 items-center justify-center">
+        <div className="w-full flex flex-col  gap-4 items-center justify-center">
           <h1 className="text-[24px] sm:text-[32px]  text-center darumadrop-one-regular">
             Take care of your kittens, decorate your rooms and play mini-games.
           </h1>
@@ -63,9 +63,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div>
+          <div className="w-full max-w-[560px]">
             <iframe
-              width="560"
+              width="100%"
               height="315"
               src="https://www.youtube.com/embed/Hmm_LbDDQqA?si=oPQDVO1fM1nHYO11"
               title="YouTube video player"
@@ -127,7 +127,7 @@ export default function Home() {
               <div className="darumadrop-one-regular text-xl uppercase">
                 Every kitten is different.
               </div>
-              <div className="flex sm:flex-row gap-2 items-start justify-center">
+              <div className="flex flex-col sm:flex-row gap-2 items-start justify-center">
                 <span>behaviour</span>
                 <span>favourite snack</span>
                 <span>favourite food</span>
