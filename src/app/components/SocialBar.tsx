@@ -45,7 +45,7 @@ export default function SocialBar() {
       </div>
 
       <Link
-        href={""}
+        href={"https://store.steampowered.com/app/2943250/Impawlse/"}
         target="_blank"
         className="ml-2 px-4 py-2 rounded-lg bg-[#e5a074] border-2 border-[#2a3233] text-black font-semibold hover:bg-[#2a3233] hover:border-[#e5a074] transition whitespace-nowrap max-md:ml-4"
       >
